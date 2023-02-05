@@ -4,23 +4,26 @@ using Microsoft.AspNetCore.Mvc;
 using System.Linq;
 using WebApi.DbOperations;
 using WebApi.Common;
+using AutoMapper;
 
 namespace WebApi.BookOperations.GetBooks
 {
     public class GetBooksQuery
     {
         private readonly BookStoreDbContext _dbContext;
-        public GetBooksQuery(BookStoreDbContext dbContext)
+        private readonly IMapper _mapper;
+        public GetBooksQuery(BookStoreDbContext dbContext, IMapper mapper)
         {
             _dbContext = dbContext;
+            _mapper = mapper;
         }
 
         public List<BooksViewModel> Handle()
         {
             var bookList = _dbContext.Books.OrderBy(x => x.Id).ToList<Book>();
-            List<BooksViewModel> vm = new List<BooksViewModel>();
+            List<BooksViewModel> vm = _mapper.Map<List<BooksViewModel>>(bookList);
 
-            foreach (var book in bookList)
+            /* foreach (var book in bookList)
             {
                 vm.Add(new BooksViewModel()
                 {
@@ -29,7 +32,7 @@ namespace WebApi.BookOperations.GetBooks
                     PublishDate = book.PublishDate.Date.ToString("dd/MM/yyy"),
                     PageCount = book.PageCount
                 });
-            }
+            } */
 
             return vm;
         }
