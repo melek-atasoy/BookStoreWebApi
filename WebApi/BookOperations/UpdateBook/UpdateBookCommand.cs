@@ -1,9 +1,6 @@
 using System;
-using System.Collections.Generic;
-using Microsoft.AspNetCore.Mvc;
 using System.Linq;
 using WebApi.DbOperations;
-using WebApi.Common;
 
 namespace WebApi.BookOperations.UpdateBook
 {
