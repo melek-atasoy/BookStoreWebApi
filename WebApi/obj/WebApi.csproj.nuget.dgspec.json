@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Melek\\Desktop\\Pratikler\\BookStore\\WebApi\\WebApi.csproj": {}
+    "C:\\Users\\Melek\\Desktop\\Pratikler\\BookStore\\webapi\\WebApi.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Melek\\Desktop\\Pratikler\\BookStore\\WebApi\\WebApi.csproj": {
+    "C:\\Users\\Melek\\Desktop\\Pratikler\\BookStore\\webapi\\WebApi.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Melek\\Desktop\\Pratikler\\BookStore\\WebApi\\WebApi.csproj",
+        "projectUniqueName": "C:\\Users\\Melek\\Desktop\\Pratikler\\BookStore\\webapi\\WebApi.csproj",
         "projectName": "WebApi",
-        "projectPath": "C:\\Users\\Melek\\Desktop\\Pratikler\\BookStore\\WebApi\\WebApi.csproj",
+        "projectPath": "C:\\Users\\Melek\\Desktop\\Pratikler\\BookStore\\webapi\\WebApi.csproj",
         "packagesPath": "C:\\Users\\Melek\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Melek\\Desktop\\Pratikler\\BookStore\\WebApi\\obj\\",
+        "outputPath": "C:\\Users\\Melek\\Desktop\\Pratikler\\BookStore\\webapi\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Melek\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -59,6 +59,10 @@
             "Microsoft.EntityFrameworkCore.InMemory": {
               "target": "Package",
               "version": "[5.0.6, )"
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[9.0.1, )"
             },
             "Swashbuckle.AspNetCore": {
               "target": "Package",
