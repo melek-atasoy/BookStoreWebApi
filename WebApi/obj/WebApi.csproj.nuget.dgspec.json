@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Melek\\Desktop\\Pratikler\\BookStore\\webapi\\WebApi.csproj": {}
+    "c:\\Users\\Melek\\Desktop\\Pratikler\\BookStore\\WebApi\\WebApi.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Melek\\Desktop\\Pratikler\\BookStore\\webapi\\WebApi.csproj": {
+    "c:\\Users\\Melek\\Desktop\\Pratikler\\BookStore\\WebApi\\WebApi.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Melek\\Desktop\\Pratikler\\BookStore\\webapi\\WebApi.csproj",
+        "projectUniqueName": "c:\\Users\\Melek\\Desktop\\Pratikler\\BookStore\\WebApi\\WebApi.csproj",
         "projectName": "WebApi",
-        "projectPath": "C:\\Users\\Melek\\Desktop\\Pratikler\\BookStore\\webapi\\WebApi.csproj",
+        "projectPath": "c:\\Users\\Melek\\Desktop\\Pratikler\\BookStore\\WebApi\\WebApi.csproj",
         "packagesPath": "C:\\Users\\Melek\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Melek\\Desktop\\Pratikler\\BookStore\\webapi\\obj\\",
+        "outputPath": "c:\\Users\\Melek\\Desktop\\Pratikler\\BookStore\\WebApi\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Melek\\AppData\\Roaming\\NuGet\\NuGet.Config",
